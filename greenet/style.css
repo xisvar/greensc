@@ -31,9 +31,15 @@ html {
     color: #00ff1c; 
 }
 
+.copyright{
+    color: #333; 
+}
+
+
 
 * {
 	box-sizing: border-box;
+	color: #f3f3f3;
 }
 
 img {
@@ -317,7 +323,9 @@ body.overflow {
 	width: 100%;
 	margin: 0 auto 3.5rem;
 	letter-spacing: -0.05em;
+	color: #000;
 }
+
 
 .hero-subtitle {
 	font-size: 1.6rem;
@@ -326,6 +334,7 @@ body.overflow {
 	width: 100%;
 	margin: 0 auto;
 	letter-spacing: -0.01em;
+	color: #000;
 }
 .hero-link,
 .hero-link-mobile {
@@ -816,7 +825,7 @@ body.overflow {
 	display: flex;
 	justify-content: center;
 	padding: 1rem 0 0;
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(0, 0, 0, 0.338);
 	color: #757575;
 	opacity: 0.8;
 }

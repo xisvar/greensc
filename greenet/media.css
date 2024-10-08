@@ -68,6 +68,7 @@
     .headline-1 {
         font-size: 3.8rem;
         line-height: 1.26;
+        color: #E2E2E2;
     }
 
     .headline-2 {
@@ -75,6 +76,7 @@
         font-weight: 700;
         letter-spacing: -0.03em;
         line-height: 1.08;
+        color: #E2E2E2;
     }
 
 
@@ -83,6 +85,7 @@
         font-weight: 700;
         letter-spacing: -0.05em;
         line-height: 1.26;
+        color: #E2E2E2;
     }
 
     .headline-4 {
@@ -90,6 +93,7 @@
         font-weight: 700;
         letter-spacing: -0.05em;
         line-height: 1.31;
+        color: #E2E2E2;
     }
 
 
@@ -98,6 +102,7 @@
         font-weight: 500;
         letter-spacing: -0.05em;
         line-height: 1.45;
+        color: #E2E2E2;
     }
 
 
@@ -554,6 +559,7 @@
 
     .footer-bottom .copyright {
         font-size: 1.4rem;
+        color: #333;
     }
 }
 
