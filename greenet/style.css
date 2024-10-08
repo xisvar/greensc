@@ -400,6 +400,10 @@ body.overflow {
 	margin-right: 12rem;
 }
 
+.networks-left-block{
+ 
+}
+
 .networks-right-block {
 	display: flex;
 	flex-wrap: nowrap;
