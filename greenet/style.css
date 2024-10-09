@@ -417,12 +417,14 @@ body.overflow {
 	margin-bottom: 2.5rem;
 	letter-spacing: -0.05em;
 	font-size: 5.8rem;
+	color: #000;
 }
 
 .networks-subtitle {
 	margin-bottom: 5.6rem;
 	letter-spacing: -0.01em;
 	line-height: 1.5;
+	color: #000;
 }
 
 .network-link {
@@ -462,6 +464,7 @@ body.overflow {
 	font-weight: 700;
 	line-height: 1.26;
 	letter-spacing: -0.05em;
+	color: #000;
 }
 /* Section Networks End */
 
