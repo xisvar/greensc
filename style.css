@@ -170,7 +170,7 @@ body.overflow {
 	color: #fff;
 }
 
-.header__menu .header_btn {
+.header__menu .header_btn{
 	display: inline-flex;
 	justify-content: center;
 	margin-left: auto;
@@ -181,11 +181,27 @@ body.overflow {
 	background: #FFF;
 }
 
-.header__menu .header_btn a {
+.btn {
+	display: inline-flex;
+	justify-content: center;
+	margin-left: auto;
+	padding: 1.6rem 2.4rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4rem;
+	transition: all .5s ease;
+	background: #00ff1c;
+}
+
+.btn a{
+	color: #000;
+	font-size: 14px;
+}
+
+.header__menu .header_btn a, .btn a{
 	color: #000;
 }
 
-.footer .header_btn a {
+.footer .header_btn a{
 	color: #fff;
 }
 
@@ -199,8 +215,14 @@ body.overflow {
 	border: 1px solid white;
 }
 
-.header__menu .header_btn:hover > a {
-	color: #000;
+.btn:hover {
+	background: #000000;
+	color: #ffffff;
+	border: 1px solid white;
+}
+
+.header__menu .header_btn:hover, .btn:hover  > a {
+	color: #ffffff;
 }
 
 .burger-menu {
@@ -622,6 +644,7 @@ body.overflow {
 .reliability-step {
 	margin-right: 5rem;
 	color: #fff;
+	width: fit-content;
 }
 .reliability-step_number {
 	border-bottom: 1px solid #fff;
