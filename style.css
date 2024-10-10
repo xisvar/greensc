@@ -99,6 +99,10 @@ body.overflow {
 	line-height: 1.26;
 }
 
+.mb2{
+	margin-bottom: 20px;
+}
+
 .headline-4 {
 	font-size: 3.2rem;
 	font-weight: 700;
@@ -536,7 +540,7 @@ body.overflow {
 
 .three-cards-wrapper .third-card {
 	background: #F3F3F3;
-	margin-top: -7.5rem;
+	margin-top: -10.5rem;
 }
 .three-cards-wrapper .first-card .card-title {
 	color: #000;
@@ -565,14 +569,14 @@ body.overflow {
 	color: #fff;
 }
 
-.three-cards-subtext p span {
+.bgrn, .three-cards-subtext p span {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 1rem;
 }
 
-.three-cards-subtext p span::after {
+.bgrn::after, .three-cards-subtext p span::after {
 	content: "";
 	position: absolute;
 	left: -8px;
