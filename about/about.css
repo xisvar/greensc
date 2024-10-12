@@ -2489,7 +2489,7 @@ footer a {
     height: 100%
 }
 
-.team .innerCan {
+.team innerCan{
     width: var(--col-6);
     margin-top: 30%;
     aspect-ratio: 462/580;
@@ -2498,7 +2498,7 @@ footer a {
     overflow: hidden
 }
 
-.team .innerCan canvas {
+.team canvas {
     position: absolute;
     top: 0;
     left: 0;
