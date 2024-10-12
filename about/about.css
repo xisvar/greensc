@@ -277,7 +277,6 @@ p.gris {
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
     appearance: none;
@@ -1749,7 +1748,7 @@ footer a {
     display: inline-block;
     width: 33.33%;
     opacity: 0;
-    aspect-ration: 154/102;
+    aspect-ratio: 154/102;
     margin: 6px 0
 }
 
