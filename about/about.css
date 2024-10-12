@@ -295,7 +295,7 @@ a {
 }
 
 body {
-    background: #09090a;
+    background: #000;
     color: #fff;
     font: 400 normal 24px/1.5 "Aeonik";
     position: relative
@@ -1590,7 +1590,7 @@ footer a {
     z-index: 2
 }
 
-.join .innerCan {
+.join {
     position: relative;
     flex: 0 0 var(--col-6);
     margin: 0 0 -90px;
@@ -1599,7 +1599,7 @@ footer a {
     overflow: hidden
 }
 
-.join .innerCan canvas {
+.join canvas {
     position: absolute;
     top: 0;
     left: 0;
