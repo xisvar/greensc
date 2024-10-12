@@ -25042,17 +25042,17 @@
             const t = .58 * this.ratio;
             this.heightGeo = 4.71 * this.ratio;
             const e = new Qd(t,this.heightGeo)
-              , i = (new sv).load("img/404/col1.webp", ( () => {
+              , i = (new sv).load("", ( () => {
                 this.step++,
                 this.testStep()
             }
             ))
-              , n = (new sv).load("img/404/col2.webp", ( () => {
+              , n = (new sv).load("", ( () => {
                 this.step++,
                 this.testStep()
             }
             ))
-              , r = (new sv).load("img/404/col3.webp", ( () => {
+              , r = (new sv).load("", ( () => {
                 this.step++,
                 this.testStep()
             }
@@ -25187,7 +25187,7 @@
             document.querySelector(".innerCan").appendChild(this.rendererJ.domElement);
             const t = new Qd(2,2);
             let e = "img/cards/08.jpg";
-            document.body.classList.contains("about") && (e = "img/about/team02.webp");
+            document.body.classList.contains("about") && (e = "img/");
             const i = (new sv).load(e, ( () => {
                 Xn.to(".innerCan", {
                     opacity: 1,
@@ -25231,56 +25231,56 @@
             this.currentItem = 0;
             let t = "";
             document.body.classList.contains("single") && (t = "../");
-            const e = (new sv).load(t + "img/cards/01.webp", ( () => {
+            const e = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera)
             }
             ))
-              , i = (new sv).load(t + "img/cards/02.webp", ( () => {
+              , i = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube02.visible = !1
             }
             ))
-              , n = (new sv).load(t + "img/cards/03.webp", ( () => {
+              , n = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube03.visible = !1
             }
             ))
-              , r = (new sv).load(t + "img/cards/04.webp", ( () => {
+              , r = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube04.visible = !1
             }
             ))
-              , s = (new sv).load(t + "img/cards/05.webp", ( () => {
+              , s = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube05.visible = !1
             }
             ))
-              , a = (new sv).load(t + "img/cards/06.webp", ( () => {
+              , a = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube06.visible = !1
             }
             ))
-              , o = (new sv).load(t + "img/cards/07.webp", ( () => {
+              , o = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube07.visible = !1
             }
             ))
-              , l = (new sv).load(t + "img/cards/08.webp", ( () => {
+              , l = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube08.visible = !1
             }
             ))
-              , c = (new sv).load(t + "img/cards/09.webp", ( () => {
+              , c = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube09.visible = !1
             }
             ))
-              , h = (new sv).load(t + "img/cards/10.webp", ( () => {
+              , h = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube10.visible = !1
             }
             ))
-              , u = (new sv).load(t + "img/cards/11.webp", ( () => {
+              , u = (new sv).load(t + "", ( () => {
                 this.renderPost(this.scene, this.camera),
                 this.cube11.visible = !1
             }

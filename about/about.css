@@ -1,30 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 @font-face {
-    font-family: "Aeonik";
-    src: url("t/Aeonik-Bold.woff2") format("woff2"),url("t/Aeonik-Bold.woff") format("woff");
+    font-family: 'DM Sans', Montserrat, sans-serif;
+    src: url('DMSans-Bold.woff2') format('woff2'),
+        url('DMSans-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Aeonik";
-    src: url("t/Aeonik-Medium.woff2") format("woff2"),url("t/Aeonik-Medium.woff") format("woff");
+    font-family: 'DM Sans', Montserrat, sans-serif;
+    src: url('DMSans-Bold.woff2') format('woff2'),
+        url('DMSans-Bold.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Aeonik";
-    src: url("t/Aeonik-Regular.woff2") format("woff2"),url("t/Aeonik-Regular.woff") format("woff");
+    font-family: 'DM Sans', Montserrat, sans-serif;
+    src: url('DMSans-Bold.woff2') format('woff2'),
+        url('DMSans-Bold.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap
 }
 
 @font-face {
-    font-family: "Aeonik";
-    src: url("t/Aeonik-Light.woff2") format("woff2"),url("t/Aeonik-Light.woff") format("woff");
+    font-family: 'DM Sans', Montserrat, sans-serif;
+    src: url('DMSans-Bold.woff2') format('woff2'),
+        url('DMSans-Bold.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -49,6 +55,10 @@
     --col-13: calc(var(--col) * 13 + 12 * var(--gutter));
     --col-14: calc(var(--col) * 14 + 13 * var(--gutter));
     --col-15: calc(var(--col) * 15 + 14 * var(--gutter))
+}
+
+.green{
+    color: #00ff1c; 
 }
 
 .wrap {
@@ -86,7 +96,7 @@
 .h1 {
     font-size: 140px;
     font-weight: 300;
-    font-family: "Aeonik";
+    font-family: 'DM Sans', Montserrat, sans-serif;
     line-height: 0
 }
 
@@ -275,6 +285,7 @@ p.gris {
 }
 
 * {
+    font-family: 'DM Sans', Montserrat, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -2257,7 +2268,6 @@ footer a {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    user-drag: none;
     -webkit-user-drag: none
 }
 
@@ -3477,8 +3487,8 @@ footer a {
 }
 
 .drop .hero {
-    background: #8056d9;
-    color: #fff
+    background: #ffffff;
+    color: #000
 }
 
 .drop .toNext path {
@@ -3498,7 +3508,7 @@ footer a {
 }
 
 .tmfc .hero {
-    background: #fdf150;
+    background: #ff2f2f;
     color: #000
 }
 
@@ -3519,7 +3529,7 @@ footer a {
 }
 
 .buybox .hero {
-    background: #dadefd;
+    background: #098cf8;
     color: #000
 }
 
