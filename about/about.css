@@ -1755,6 +1755,8 @@ footer a {
     opacity: 0
 }
 
+
+
 .logos svg {
     display: inline-block;
     width: 33.33%;
@@ -2427,6 +2429,15 @@ footer a {
     display: block;
     width: calc(var(--col-5) + var(--gutter));
     height: auto
+}
+
+.teamimg{
+    min-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 445px;
+    border-radius: 24px;
+    object-position: bottom;
 }
 
 .who .fond {
