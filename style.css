@@ -8,6 +8,43 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,
 	--color-default: #fff;
 }
 
+:root {
+    --wrapper: 88vw;
+    --gutter: 1.6vw;
+    --leftMargin: 6vw;
+    --col: calc((var(--wrapper) - 15 * var(--gutter)) / 16);
+    --col-2: calc(var(--col) * 2 + var(--gutter));
+    --col-3: calc(var(--col) * 3 + 2 * var(--gutter));
+    --col-4: calc(var(--col) * 4 + 3 * var(--gutter));
+    --col-5: calc(var(--col) * 5 + 4 * var(--gutter));
+    --col-6: calc(var(--col) * 6 + 5 * var(--gutter));
+    --col-7: calc(var(--col) * 7 + 6 * var(--gutter));
+    --col-8: calc(var(--col) * 8 + 7 * var(--gutter));
+    --col-9: calc(var(--col) * 9 + 8 * var(--gutter));
+    --col-10: calc(var(--col) * 10 + 9 * var(--gutter));
+    --col-11: calc(var(--col) * 11 + 10 * var(--gutter));
+    --col-12: calc(var(--col) * 12 + 11 * var(--gutter));
+    --col-13: calc(var(--col) * 13 + 12 * var(--gutter));
+    --col-14: calc(var(--col) * 14 + 13 * var(--gutter));
+    --col-15: calc(var(--col) * 15 + 14 * var(--gutter))
+}
+
+.green{
+    color: #00ff1c; 
+}
+
+.wrap {
+    width: var(--wrapper);
+    margin: 0 auto;
+    position: relative
+}
+
+.wrap2 {
+    width: var(--col-14);
+    margin: 0 auto
+}
+
+
 html {
 	font-size: 10px;
 }
@@ -68,6 +105,195 @@ body {
 
 body.overflow {
 	overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap
+}
+
+@media (max-width: 1280px) {
+    .quote2 p {
+        font-size: 31px;
+    }
+}
+.quote2 p {
+    font: 300 normal 40px / normal "Aeonik";
+}
+
+.fl7 {
+    flex: 0 0 var(--col-7);
+}
+
+p {
+    margin: 26px 0;
+}
+
+
+.whoV2 {
+    overflow: hidden
+}
+
+.whoV2 .gris {
+    color: #888
+}
+
+.whoV2 span.gris {
+    font-weight: 500
+}
+
+.whoV2 .quote2 p {
+    text-align: left
+}
+
+.whoV2 .innerImgs {
+    margin: -14% 0 0
+}
+
+.whoV2 .innerImg {
+    position: relative
+}
+
+.whoV2 .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 100%
+}
+
+.whoV2 .innerImgsMob {
+    -moz-column-gap: var(--gutter);
+    column-gap: var(--gutter);
+    margin: 36px 0 0
+}
+
+@media(min-width: 768px) {
+    .whoV2 .innerImgsMob {
+        display:none
+    }
+}
+
+.whoV2 .innerImgsMob>div {
+    flex: 1
+}
+
+.whoV2 .innerImgsMob>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.whoV2 .innerImgsMob .innerImg1 {
+    aspect-ratio: 167/198;
+    margin: 30px 0 0
+}
+
+.whoV2 .innerImgsMob .innerImg2 {
+    aspect-ratio: 121/163;
+    margin: var(--gutter) 0 0;
+    width: 76%
+}
+
+.whoV2 .innerImgsMob .innerImg3 {
+    aspect-ratio: 76/104;
+    margin: var(--gutter) 0 0;
+    width: 50%
+}
+
+.whoV2 .innerImgsMob .innerImg4 {
+    aspect-ratio: 121/129;
+    width: 76%
+}
+
+.whoV2 .innerImgsMob .innerImg5 {
+    aspect-ratio: 257/189;
+    margin: var(--gutter) 0 0;
+    width: 155%
+}
+
+.whoV2 .innerImgsMob .innerImg6 {
+    aspect-ratio: 129/183;
+    margin: var(--gutter) 0 0;
+    width: 80%
+}
+
+.whoV2 .innerImgs .innerImg1 {
+    width: var(--col-4);
+    margin: 24% var(--gutter) 0 0;
+    aspect-ratio: 300/356
+}
+
+.whoV2 .innerImgs .innerRight {
+    width: var(--col-10)
+}
+
+.whoV2 .innerImgs .innerImg2 {
+    width: var(--col-3);
+    aspect-ratio: 219/232
+}
+
+.whoV2 .innerImgs .innerImg3 {
+    width: var(--col-4);
+    aspect-ratio: 300/426
+}
+
+.whoV2 .innerImgs .innerImg4 {
+    width: var(--col-3);
+    aspect-ratio: 219/293
+}
+
+.whoV2 .innerImgs .innerImg5 {
+    width: var(--col-6);
+    aspect-ratio: 462/341;
+    margin: 0 var(--gutter) 0 0
+}
+
+.whoV2 .innerImgs .innerImg6 {
+    width: var(--col-2);
+    aspect-ratio: 138/188
+}
+
+@media(max-width: 767px) {
+    .whoV2 .innerImgs {
+        display:none
+    }
+}
+
+.whoV2 .innerImg {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content
+}
+
+.whoV2 .innerImg img,.whoV2 .innerImg video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.whoV2 .up {
+    margin: 0 0 var(--gutter);
+	gap: 2rem;
+    align-items: flex-end
+}
+
+@media(max-width: 767px) {
+    .whoV2 .wrap2 {
+        width:var(--wrapper)
+    }
+
+    .whoV2 .quote2 p {
+        flex: 0 0 var(--wrapper)
+    }
+}
+
+#garciScroll {
+    position: relative;
+    min-height: 100vh;
+    z-index: 2
 }
 
 .wrapper {

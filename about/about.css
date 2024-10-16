@@ -434,6 +434,10 @@ button {
     display: block
 }
 
+.actif {
+    background-color: #00ff1c;
+}
+
 #projets.fake {
     display: block;
     visibility: hidden;
@@ -2787,7 +2791,7 @@ footer a {
 .whatWeDo .card {
     width: var(--col-5);
     aspect-ratio: 381/450;
-    background: #000;
+    background: #1d1e21;
     margin: 0 0 0 var(--gutter);
     text-align: center;
     flex-direction: column;
