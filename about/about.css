@@ -2791,7 +2791,7 @@ footer a {
 .whatWeDo .card {
     width: var(--col-5);
     aspect-ratio: 381/450;
-    background: #1d1e21;
+    background: #272b28;
     margin: 0 0 0 var(--gutter);
     text-align: center;
     flex-direction: column;
