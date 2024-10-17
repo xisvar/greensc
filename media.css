@@ -694,7 +694,7 @@
 
     .hero-background-image-mobile {
         display: block;
-        width: fit-content;
+        width: -webkit-fill-available;
         max-width: inherit;
     }
 }
