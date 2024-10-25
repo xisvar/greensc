@@ -303,6 +303,12 @@ p {
 	margin: 2rem auto;
 }
 
+.lil{
+	width: 100%;
+	max-width: 8rem;
+}
+
+
 .headline-1 {
 	font-size: 5.8rem;
 	font-weight: 700;
