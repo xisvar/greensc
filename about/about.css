@@ -2673,6 +2673,7 @@ footer a {
 
 @media(max-width: 767px) {
     .essaymg{
+        min-width: none;
         max-width: fit-content;
         height: 24rem;
     }
