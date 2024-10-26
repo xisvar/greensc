@@ -2673,14 +2673,9 @@ footer a {
 
 @media(max-width: 767px) {
     .essaymg{
-        min-width: 31rem;
-        width: 81vw;
-        height: 28rem;
-        border-radius: 15px;
-        border: 1px inset whitesmoke;
-        object-position: center;
-        object-fit: cover;
-    
+        width: 364.32px;
+        max-width: fit-content;
+        height: 24rem;
     }
 }
 
