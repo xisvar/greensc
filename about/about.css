@@ -2659,6 +2659,17 @@ footer a {
     aspect-ratio: 138/188
 }
 
+.essaymg{
+    width: 24rem;
+	max-width: 24rem;
+    height: 24rem;
+    border-radius: 15px;
+    border: 1px inset whitesmoke;
+    object-position: center;
+    object-fit: cover;
+
+}
+
 @media(max-width: 767px) {
     .whoV2 .innerImgs {
         display:none
