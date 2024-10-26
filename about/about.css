@@ -2660,9 +2660,9 @@ footer a {
 }
 
 .essaymg{
-    width: 24rem;
-	max-width: 24rem;
-    height: 24rem;
+    min-width: 31rem;
+    width: 31rem;
+    height: 28rem;
     border-radius: 15px;
     border: 1px inset whitesmoke;
     object-position: center;
