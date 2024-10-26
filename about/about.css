@@ -2674,7 +2674,8 @@ footer a {
 @media(max-width: 767px) {
     .essaymg{
         min-width: none;
-        max-width: fit-content;
+        max-width: min-content;
+        width: 100%;
         height: 24rem;
     }
 }
