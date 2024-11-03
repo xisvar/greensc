@@ -60,6 +60,20 @@
 .green{
     color: #00ff1c; 
 }
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 55px;
+    height: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #161616; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00ff1c; 
+}
 
 .wrap {
     width: var(--wrapper);
